@@ -9,4 +9,9 @@ then install angular and its material
  BackEnd:
  to run the backend you have to update all the mavem files present in that microservices.
 
+Database:
+First you require to have mysql server running on backgroud and created database namend as per application.properties 
+For database you have to edite the application.properties file in microservices and have to change its username and password.
+For wishlist save you have to install mongodb in your system or just change path of mongodb in application.properties in wishlist service.
+
  
